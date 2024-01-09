@@ -1,0 +1,47 @@
+/* app.css */
+
+body {
+  background-color: #8C888A;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.forms {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  height: 400px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input,
+.btn {
+  margin-bottom: 15px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: #41a445;
+}
+
+h2 {
+  font-size: 25px;
+  padding: 20px 40px 20px 40px;
+  background-color: #417dff;
+  color: white;
+}
+
+.error-text {
+  color: red;
+}
