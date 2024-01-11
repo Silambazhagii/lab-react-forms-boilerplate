@@ -34,6 +34,9 @@ function Forms() {
         if (formval.PhoneNo.length === 0) {
             errors.PhoneNo = 'Please enter your PhoneNo';
         }
+        if (formval.PhoneNo.length < 10) {
+            errors.PhoneNo = 'Invalid PhoneNo';
+        }
 
         seterrors(errors);
         setsub(true);
